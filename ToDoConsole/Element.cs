@@ -37,6 +37,11 @@ namespace ToDoConsole
             this.isCompleted = true;
         }
 
+        public void SetIsNotCompleted()
+        {
+            this.isCompleted = false;
+        }
+
         public string GetName()
         {
             return this.name;
